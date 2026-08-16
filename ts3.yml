@@ -11,12 +11,15 @@ matches:
   - trigger: ct;
     replace: CONTINUE TAXI
   
+  - trigger: fc
+    replace: FOLLOW COMPANY
+  
   - trigger: pbn;
     replace: "PUSHBACK APPROVED FACING NORTH"
   - trigger: pbne
     replace: "PUSHBACK APPROVED FACING NORTHEAST"
   - trigger: pbnw
-    replace: "PUShBACK APPROVED FACING NORTHWEST"  
+    replace: "PUSHBACK APPROVED FACING NORTHWEST"  
   - trigger: pbe
     replace: "PUSHBACK APPROVED FACING EAST"
   - trigger: pbs;
@@ -27,8 +30,6 @@ matches:
     replace: "PUSHBACK APPROVED FACING SOUTHWEST"
   - trigger: pbw
     replace: "PUSHBACK APPROVED FACING WEST"
-  - trigger: pb;
-    replace: "PUSHBACK APPROVED EXPECT "
 
   - trigger: apn;
     replace: "APPROVED FACING NORTH"
@@ -44,8 +45,6 @@ matches:
     replace: "APPROVED FACING SOUTHEAST"
   - trigger: apsw
     replace: "APPROVED FACING SOUTHWEST"
-  - trigger: ap;
-    replace: "APPROVED EXPECT "
     
   - trigger: ct1
     replace: "CLEARED FOR TAKEOFF ON REACHING ALTITUDE 1000 CONTACT DEPARTURE"
@@ -63,13 +62,17 @@ matches:
     replace: "CLEARED TO LAND TAKE NEXT AVAILABLE EXIT ON LEFT"
   - trigger: ca;
     replace: "CONTINUE APPROACH"
- 
+
+  - trigger: tnr
+    replace: "TAKE NEXT AVAILABLE EXIT ON RIGHT"
+  - trigger: tnl
+    replace: "TAKE NEXT AVAILABLE EXIT ON LEFT"  
+    
   - trigger: var;
     replace: "VACATE RUNWAY RIGHT ONTO TAXIWAY "
   - trigger: val;
     replace: "VACATE RUNWAY LEFT ONTO TAXIWAY "  
     
- 
   - trigger: stb
     replace: "STANDBY"  
     
@@ -77,6 +80,7 @@ matches:
     replace: "CONTACT DEPARTURE"
   - trigger: cg;
     replace: "CONTACT GROUND"
+
   - trigger: cat;
     replace: "CANCEL TAKEOFF"
     
