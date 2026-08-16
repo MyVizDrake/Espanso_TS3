@@ -14,38 +14,6 @@ matches:
   - trigger: fc
     replace: FOLLOW COMPANY
   
-  - trigger: pbn;
-    replace: "PUSHBACK APPROVED FACING NORTH"
-  - trigger: pbne
-    replace: "PUSHBACK APPROVED FACING NORTHEAST"
-  - trigger: pbnw
-    replace: "PUSHBACK APPROVED FACING NORTHWEST"  
-  - trigger: pbe
-    replace: "PUSHBACK APPROVED FACING EAST"
-  - trigger: pbs;
-    replace: "PUSHBACK APPROVED FACING SOUTH"    
-  - trigger: pbse
-    replace: "PUSHBACK APPROVED FACING SOUTHEAST"
-  - trigger: pbsw
-    replace: "PUSHBACK APPROVED FACING SOUTHWEST"
-  - trigger: pbw
-    replace: "PUSHBACK APPROVED FACING WEST"
-
-  - trigger: apn;
-    replace: "APPROVED FACING NORTH"
-  - trigger: apne
-    replace: "APPROVED FACING NORTHEAST"
-  - trigger: apnw
-    replace: "APPROVED FACING NORTHWEST"  
-  - trigger: ape
-    replace: "APPROVED FACING EAST"
-  - trigger: aps;
-    replace: "APPROVED FACING SOUTH"    
-  - trigger: apse
-    replace: "APPROVED FACING SOUTHEAST"
-  - trigger: apsw
-    replace: "APPROVED FACING SOUTHWEST"
-    
   - trigger: ct1
     replace: "CLEARED FOR TAKEOFF ON REACHING ALTITUDE 1000 CONTACT DEPARTURE"
   - trigger: ci1
@@ -89,6 +57,10 @@ matches:
     
   - trigger: ga;
     replace: "GO AROUND"
+  - trigger: gatr
+    replaes: "GO AROUND TURN RIGHT 45 DEGREES CONTACT DEPARTURE"
+  - trigger: gatl
+    replaes: "GO AROUND TURN LEFT 45 DEGREES CONTACT DEPARTURE"
     
   - trigger: lw
     replace: LINE UP AND WAIT

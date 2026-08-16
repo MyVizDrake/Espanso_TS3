@@ -1,4 +1,24 @@
 matches:
+
+# Cardinal Directions
+
+  - trigger: apn;
+    replace: "APPROVED FACING NORTH"
+  - trigger: apne
+    replace: "APPROVED FACING NORTHEAST"
+  - trigger: apnw
+    replace: "APPROVED FACING NORTHWEST"  
+  - trigger: ape
+    replace: "APPROVED FACING EAST"
+  - trigger: aps;
+    replace: "APPROVED FACING SOUTH"    
+  - trigger: apse
+    replace: "APPROVED FACING SOUTHEAST"
+  - trigger: apsw
+    replace: "APPROVED FACING SOUTHWEST"
+
+# Specific Runways
+    
   # ROW
   - trigger: "ap01;"
     replace: "APPROVED EXPECT RUNWAY 01"

@@ -1,4 +1,26 @@
 matches:
+
+# Cardinal Directions
+
+  - trigger: pbn;
+    replace: "PUSHBACK APPROVED FACING NORTH"
+  - trigger: pbne
+    replace: "PUSHBACK APPROVED FACING NORTHEAST"
+  - trigger: pbnw
+    replace: "PUSHBACK APPROVED FACING NORTHWEST"  
+  - trigger: pbe
+    replace: "PUSHBACK APPROVED FACING EAST"
+  - trigger: pbs;
+    replace: "PUSHBACK APPROVED FACING SOUTH"    
+  - trigger: pbse
+    replace: "PUSHBACK APPROVED FACING SOUTHEAST"
+  - trigger: pbsw
+    replace: "PUSHBACK APPROVED FACING SOUTHWEST"
+  - trigger: pbw
+    replace: "PUSHBACK APPROVED FACING WEST"
+
+# Specific Runways
+
   # ROW
   - trigger: "pb01;"
     replace: "PUSHBACK APPROVED EXPECT RUNWAY 01"
