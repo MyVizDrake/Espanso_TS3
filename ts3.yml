@@ -58,9 +58,9 @@ matches:
   - trigger: ga;
     replace: "GO AROUND"
   - trigger: gatr
-    replaes: "GO AROUND TURN RIGHT 45 DEGREES CONTACT DEPARTURE"
+    replace: "GO AROUND TURN RIGHT 45 DEGREES CONTACT DEPARTURE"
   - trigger: gatl
-    replaes: "GO AROUND TURN LEFT 45 DEGREES CONTACT DEPARTURE"
+    replace: "GO AROUND TURN LEFT 45 DEGREES CONTACT DEPARTURE" 
     
   - trigger: lw
     replace: LINE UP AND WAIT
